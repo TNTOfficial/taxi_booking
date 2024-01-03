@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!--   BOOTSTRAP CSS Style LINK   -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP ICON CDN LINK  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Aos animation css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <!-- Topbar -->
+    <header class="header_wrapper py-4 fixed-top position-absolute top-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div
+            class="anavbar navbar-item col col-12 col-xxl-5 col-lg-5 col-md-12 col-sm-12 col-md-center text-sm-center text-xxl-start text-xl-start text-lg-start"
+          >
+            <!-- <a class="  navbar-item me-4 icon-link icon-link-hover text-white"
+            style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)" href="#">
+            <i class="bi bi-person-circle align-middle mb-2 text_yellow"></i>Customer Sign In
+          </a> -->
+            <a
+              class="navbar-item-one icon-link icon-link-hover text_white"
+              style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+              href="#"
+            >
+              <i class="bi bi-person-circle align-middle mb-2 text_yellow"></i>
+              Customer Sign In
+            </a>
+            <a
+              class="navbar-item-two icon-link icon-link-hover text_white"
+              style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+              href="#"
+            >
+              <i class="bi bi-envelope-fill align-middle text_yellow"></i>
+              needhelp@conexi.com
+            </a>
+          </div>
+          <div
+            class="nav-item col col-12 col-xxl-2 col-lg-2 col-md-12 col-sm-12 text-center"
+          >
+            <a href="#" class="navbar-brand text-center">
+              <img
+                src="./assets/images/logo-1-1.png"
+                class="navbar-item img-fluid"
+                alt="#"
+              />
+            </a>
+          </div>
+          <div
+            class="col col-12 col-xxl-5 col-lg-5 col-md-12 col-sm-12 text-center collapse navbar-collapse justify-content-end"
+          >
+            <ul class="text-center navbar-nav menu-navbar-nav-ul">
+              <li class="nav-item">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="bi bi-twitter text_white"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="bi bi-youtube text_white"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                  ><i class="bi bi-facebook text_white"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                  ><i class="bi bi-google text_white"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Topbar Exit -->
+
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg theme_color rounded-pill p-0 ps-5 my-4"
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse theme_color rounded-start-pill"
+            style="position: relative"
+            id="navbarText"
+          >
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item me-5">
+                <a
+                  class="nav-link text_black"
+                  style="font-size: 20px"
+                  href="./index.html"
+                >
+                  <span>Home</span></a
+                >
+              </li>
+
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link text_black"
+                  style="font-size: 20px"
+                  href="./about.html"
+                  ><span>About</span></a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link text_black"
+                  style="font-size: 20px"
+                  href="./blog.html"
+                  ><span>Blog</span></a
+                >
+              </li>
+              <li class="nav-item mx-5">
+                <a
+                  class="nav-link text_black"
+                  style="font-size: 20px"
+                  href="./contact.html"
+                  ><span>Contact</span></a
+                >
+              </li>
+              <li
+                class="call rounded-start-pill theme_black nav-item ps-2 pt-1 pb-2"
+                style="position: absolute; right: -25px; top: -9px"
+              >
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                  ><i class="bi bi-telephone-inbound-fill text_yellow"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <span
+            class="navbar-text theme_black text-white rounded-end-pill"
+            style="padding: 15px 50px 15px 50px"
+          >
+            <strong>888 888 000 </strong><br /><small>PHONE LINE </small>
+          </span>
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar Exit -->
+    <!-- Slider Start -->
+    <div id="carouselExampleCaptions" class="carousel slide position-relative">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active taxi_img">
+          <img
+            src="./assets/images/taxi-1347-x-900-picture-w6wrxgjtndz54ntm.jpg"
+            class="d-block w-100"
+            style="height: 100vh; object-fit: cover"
+            alt="asdfghjkldfgh"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 data-aos="zoom-in" data-aos-duration="1200">
+              Cheap & Trusted <br />
+              Taxi Company
+            </h5>
+            <p data-aos="fade-up" data-aos-duration="800">
+              Some representative placeholder <br />
+              content for the first slide.
+            </p>
+
+            <input
+              data-aos="zoom-out"
+              data-aos-duration="1600"
+              class="btn-form btn rounded-pill theme_color py-2 px-5 fs-4"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+        <div class="carousel-item taxi_img">
+          <img
+            src="./assets/images/taxi-1920-x-1080-picture-wobtoakrvd2w2hs9.jpg"
+            class="d-block w-100"
+            style="height: 100vh; object-fit: cover"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 data-aos="fade-down" data-aos-duration="800">
+              Cheap & Trusted <br />
+              Taxi Company
+            </h5>
+            <p data-aos="fade-up" data-aos-duration="1400">
+              Some representative placeholder <br />content for the second
+              slide.
+            </p>
+            <input
+              data-aos="zoom-out"
+              data-aos-duration="1600"
+              class="btn-form btn rounded-pill theme_color py-2 px-5 fs-4"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+        <div class="carousel-item taxi_img">
+          <img
+            src="./assets/images/taxi-2048-x-1365-picture-crtvfa8bc0iemvej.jpg"
+            class="d-block w-100"
+            style="height: 100vh; object-fit: cover"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 data-aos="fade-down" data-aos-duration="800">
+              Cheap & Trusted <br />
+              Taxi Company
+            </h5>
+
+            <p data-aos="fade-up" data-aos-duration="1000">
+              Some representative placeholder <br />
+              content for the third slide.
+            </p>
+            <input
+              data-aos="zoom-out"
+              data-aos-duration="1600"
+              class="btn-form btn rounded-pill theme_color py-2 px-5 fs-4"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--  Slider Exit -->
+    <!-- Form Start -->
+    <div class="background theme_black" style="padding: 100px 0px">
+      <div class="container">
+        <div class="row theme_black border-0">
+          <div
+            class="col col-12 col-xxl-4 col-lg-6 col-xs-12 col-md-12 col-sm-12 border-0"
+          >
+            <div class="card border-0">
+              <div class="card-body theme_black">
+                <h5 class="text-white">Looking for taxi?</h5>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  class="text-white mb-5"
+                  style="font-size: 70px"
+                >
+                  Make your booking
+                </h1>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  class="text-white"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, debitis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-xxl-4 col-lg-3 col-md-12 col-sm-12">
+            <div class="card theme_black">
+              <div class="card-body theme_black">
+                <form>
+                  <div class="">
+                    <input
+                      type="text"
+                      class="w-100 rounded-pill text-white theme_fade-black mb-4 p-3 border-0"
+                      placeholder="Your name"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="">
+                    <input
+                      type="text"
+                      class="w-100 rounded-pill text-white theme_fade-black mb-4 p-3 border-0"
+                      placeholder="Passengers #"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="">
+                    <input
+                      type="text"
+                      class="w-100 rounded-pill text-white theme_fade-black mb-4 p-3 border-0"
+                      placeholder="Drop off Address"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="">
+                    <input
+                      type="time"
+                      class="w-100 rounded-pill text-white theme_fade-black text_fade-white mb-4 p-3 border-0"
+                      placeholder="Select time"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-xxl-4 col-lg-3 col-md-12 col-sm-12">
+            <div class="card theme_black theme_black">
+              <div class="card-body">
+                <form>
+                  <div class="">
+                    <input
+                      type="text"
+                      class="w-100 rounded-pill text-white theme_fade-black mb-4 p-3 border-0"
+                      placeholder=" Email Addresss"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="">
+                    <input
+                      type="text"
+                      class="w-100 rounded-pill text-white theme_fade-black mb-4 p-3 border-0"
+                      placeholder="Pick a Address"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="">
+                    <input
+                      type="date"
+                      class="w-100 rounded-pill text-white theme_fade-black mb-4 text_fade-white p-3 border-0"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div data-aos="fade-left" data-aos-duration="1000" class="">
+                    <input
+                      class="btn-form btn rounded-pill theme_color p-3 w-100"
+                      type="submit"
+                      value="Submit"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Form Exit -->
+    <!-- Gallery  -->
+    <div class="container">
+      <div class="row">
+        <div
+          class="col col-12 col-xxl-12 col-xs-12 col-lg-12 col-md-12 col-sm-12 card my-5 border-0"
+        >
+          <div class="card-body text-center border-0">
+            <h5>Welcome to Conexi Company</h5>
+            <h2
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-center"
+              data-aos-duration="1000"
+              class="card-title"
+              style="font-size: 60px; font-weight: bolder"
+            >
+              Your first choice <br />
+              for traveling anywhere
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div
+            class="col col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12"
+          >
+            <div class="h-100" style="height: 600px">
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                src="./assets/images/taxi-2048-x-1365-picture-crtvfa8bc0iemvej.jpg"
+                class="img-fluid rounded h-100"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="col col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 h-100"
+          >
+            <div class="row mt-md-3 mt-3 mt-sm-3 g-0" style="height: 220px">
+              <div class="col-6 align-items-stretch h-100" style="height: 100%">
+                <p
+                  class="card-text p-5 text-center fs-5 theme_fade-white rounded-start h-100"
+                >
+                  This is a wider card with supporting text below as a natural.
+                </p>
+              </div>
+
+              <div
+                class="col-6 h-100 align-items-stretch"
+                style="height: 220px"
+              >
+                <img
+                  data-aos="zoom-in-left"
+                  data-aos-duration="1000"
+                  src="./assets/images/taxi-1347-x-900-picture-w6wrxgjtndz54ntm.jpg"
+                  class="img-fluid rounded-end h-100 w-100"
+                  style="object-fit: cover"
+                  alt=""
+                />
+              </div>
+            </div>
+            <p class="my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              recusandae necessitatibus rem, quam excepturi exercitationem
+              voluptas? Reprehenderit deserunt quam recusandae commodi itaque
+              laboriosam libero ratione minima, sed eum distinctio quaerat.
+            </p>
+            <div class="d-flex justify-content-center align-item-center pt-4">
+              <div
+                class="me-3 rounded-pill theme_black fs-3 icon-link icon-link-hover"
+                style="width: 65px; height: 65px; padding: 12px 10px 10px 18px"
+              >
+                <i
+                  class="bi bi-telephone-inbound-fill text_yellow w-100 h-100"
+                ></i>
+              </div>
+              <div>
+                <a href="#"> Call us now and make your booking</a> <br />
+                <a href="#" class="text-center"> 888 888 000</a>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galerry Exit -->
+    <!--  Numbers speak -->
+    <div class="row p-0 m-0">
+      <div
+        class="col col-12 col-xxl-12 col-xs-12 col-lg-12 col-md-12 col-sm-12 card mt-5 border-0 theme_fade-white"
+      >
+        <div class="card-body mt-5 text-center border-0">
+          <h5>Welcome to Conexi Company</h5>
+          <h2
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-center"
+            data-aos-duration="1200"
+            class="card-title"
+            style="font-size: 60px; font-weight: bolder"
+          >
+            Numbers Speak
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="theme_fade-white pt-5">
+      <div class="container">
+        <div
+          class="row mb-5 g-1 theme_fade-white row-cols-xxl-4 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1"
+        >
+          <div
+            class="col col-3 theme_white rounded text-center"
+            style="padding: 80px"
+          >
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              data-aos-duration="800"
+              class="text-center"
+            >
+              <i class="bi bi-speedometer fs-1 text_yellow"></i>
+              <h3 class=" ">8700</h3>
+              <p>KM Driven</p>
+            </div>
+          </div>
+          <div
+            class="col col-3 theme_white rounded text-center"
+            style="padding: 80px"
+          >
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              data-aos-duration="1000"
+              class="text-center"
+            >
+              <i class="bi bi-speedometer fs-1 text_yellow"></i>
+              <h3 class=" ">8700</h3>
+              <p>KM Driven</p>
+            </div>
+          </div>
+          <div
+            class="col col-3 theme_white rounded text-center"
+            style="padding: 80px"
+          >
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              data-aos-duration="1200"
+              class="text-center"
+            >
+              <i class="bi bi-speedometer fs-1 text_yellow"></i>
+              <h3 class=" ">8700</h3>
+              <p>KM Driven</p>
+            </div>
+          </div>
+          <div
+            class="col col-3 theme_white rounded text-center"
+            style="padding: 80px"
+          >
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              data-aos-duration="1400"
+              class="text-center"
+            >
+              <i class="bi bi-speedometer fs-1 text_yellow"></i>
+              <h3 class=" ">8700</h3>
+              <p>KM Driven</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="theme_color p-5 d-flex justify-content-center align-item-center"
+      >
+        <div class="container">
+          <div class="card w-100 border-0">
+            <div class="row g-5 p-5 theme_color">
+              <div
+                class="col col-12 col-xxl-8 col-xl-8 col-lg-8 col-md-6 col-sm-12"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Make a call and fill form</h5>
+                  <br />
+                  <h5
+                    data-aos="fade-up"
+                    data-aos-duration="1100"
+                    class="card-title"
+                    style="font-size: 60px; font-weight: bolder"
+                  >
+                    Call our agent to get a quote.
+                  </h5>
+                </div>
+              </div>
+              <div
+                class="col col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 border-0 pt-4"
+              >
+                <button
+                  data-aos="fade-left"
+                  data-aos-duration="900"
+                  class="btn-bt text_white theme_black border-0 rounded-pill p-3 mt-5 w-50"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Numbers speak Exit -->
+    <!--  Choose Taxi -->
+    <div class="container-fluid">
+      <div class="row p-0 m-0">
+        <div
+          class="col col-12 col-xxl-12 col-xs-12 col-lg-12 col-md-12 col-sm-12 card mt-5 border-0"
+        >
+          <div class="card-body mt-5 text-center border-0">
+            <h5>Welcome to Conexi Company</h5>
+            <h2
+              data-aos="fade-up"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="100"
+              data-aos-duration="1200"
+              class="card-title"
+              style="font-size: 60px; font-weight: bolder"
+            >
+              Choose Taxi
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          class="row row-cols-xxl-4 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-2 my-5 g-2"
+          style="height: 200px"
+        >
+          <div class="col-md-3 border-0 h-50">
+            <button
+              data-aos="zoom-in"
+              data-aos-duration="1100"
+              class="btn-yt text_fade-black theme_fade-white border-0 rounded-pill h-50 w-100"
+            >
+              Book Now
+            </button>
+          </div>
+          <div class="col-md-3 border-0 h-50">
+            <button
+              data-aos="zoom-in"
+              data-aos-duration="1100"
+              class="btn-yt text_fade-black theme_fade-white border-0 rounded-pill h-50 w-100"
+            >
+              Book Now
+            </button>
+          </div>
+          <div class="col-md-3 border-0 h-50">
+            <button
+              data-aos="zoom-in"
+              data-aos-duration="1100"
+              class="btn-yt text_fade-black theme_fade-white border-0 rounded-pill h-50 w-100"
+            >
+              Book Now
+            </button>
+          </div>
+          <div class="col-md-3 border-0 h-50">
+            <button
+              data-aos="zoom-in"
+              data-aos-duration="1100"
+              class="btn-yt text_fade-black theme_fade-white border-0 rounded-pill h-50 w-100"
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="row row-cols-xxl-3 row-cols-xl-3 row-cols-lg-3 row-cols-md-1 row-cols-sm-1 row-cols-1 mb-5 g-5"
+      >
+        <div class="col">
+          <div class="car-border card h-100 p-5 text-center">
+            <img
+              src="./assets/images/pricing-1-1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <img
+                src="./bmw.svg"
+                class="mt-4"
+                style="width: 100px; height: 100px"
+                alt=""
+              />
+              <ul class="list-group my-5 mx-3">
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Base Rate:</span>
+                  <span>$4.30</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Per Mile/KM:</span>
+                  <span>$2.00</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Passengers:</span>
+                  <span>4</span>
+                </li>
+              </ul>
+              <button class="btn-be p-3 rounded-pill w-100 text_black border-0">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card car-border h-100 p-5 text-center">
+            <img
+              src="./assets/images/pricing-1-1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <img
+                src="./bmw.svg"
+                class="mt-4"
+                style="width: 100px; height: 100px"
+                alt=""
+              />
+              <ul class="list-group my-5 mx-3">
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Base Rate:</span>
+                  <span>$4.30</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Per Mile/KM:</span>
+                  <span>$2.00</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Passengers:</span>
+                  <span>4</span>
+                </li>
+              </ul>
+              <button class="btn-be p-3 rounded-pill w-100 text_black border-0">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card car-border h-100 p-5 text-center">
+            <img
+              src="./assets/images/pricing-1-1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <img
+                src="./bmw.svg"
+                class="mt-4"
+                style="width: 100px; height: 100px"
+                alt=""
+              />
+              <ul class="list-group my-5 mx-3">
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Base Rate:</span>
+                  <span>$4.30</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Per Mile/KM:</span>
+                  <span>$2.00</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Passengers:</span>
+                  <span>4</span>
+                </li>
+              </ul>
+              <button class="btn-be p-3 rounded-pill w-100 text_black border-0">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Choose Taxi Exit-->
+    <!-- car brands -->
+    <div class="container">
+      <hr />
+      <div
+        class="row my-5 row-cols-1 row-cols-xxl-5 row-cols-xl-5 row-cols-lg-5 row-cols-md-3 row-cols-sm-2"
+      >
+        <div class="col">
+          <img src="./assets/images/brand-1-1.jpg" alt="" />
+        </div>
+        <div class="col">
+          <img src="./assets/images/brand-1-5.jpg" alt="" />
+        </div>
+        <div class="col">
+          <img src="./assets/images/brand-1-5.jpg" alt="" />
+        </div>
+        <div class="col">
+          <img src="./assets/images/brand-1-5.jpg" alt="" />
+        </div>
+        <div class="col">
+          <img src="./assets/images/brand-1-1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- car brands Exit -->
+    <!-- Why Choose us -->
+
+    <div class="theme_black p-5">
+      <div class="container">
+        <div class="row p-0 m-0">
+          <div
+            class="col col col-12 col-xxl-12 col-xs-12 col-lg-12 col-md-12 col-sm-12 card p-0 border-0"
+          >
+            <div
+              class="card-body pt-5 text-center text-white theme_black border-0"
+            >
+              <h5 class="text_fade-white">Our best cars</h5>
+              <h2
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1300"
+                class="card-title"
+                style="font-size: 60px; font-weight: bolder"
+              >
+                Why Choose us
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row row-cols-xxl-3 row-cols-xl-3 row-cols-lg-3 row-cols-md-1 row-cols-sm-1 row-cols-1 g-4"
+        >
+          <div class="col">
+            <div class="card h-100 border-0 text-center">
+              <div class="card-body theme_black p-5">
+                <img
+                  data-aos-duration="1000"
+                  data-aos="zoom-out"
+                  src="./assets/images/kisspng-request-for-quotation-sales-quote-service-computer-5af948c1a5b636.6792786215262865296788.png"
+                  class="card-img-top rounded-pill theme_color p-3"
+                  style="width: 100px; height: 100px"
+                  alt="..."
+                />
+
+                <h5 class="card-title m-3 text-white">Safety Guarantee</h5>
+                <p
+                  data-aos-duration="1000"
+                  data-aos="zoom-out"
+                  class="card-text text_fade-white"
+                >
+                  This is content. This content is a little bit longer.This is
+                  content. This content is a little bit longer.
+                </p>
+                <input
+                  class="btn-form btn rounded-pill theme_color p-3 w-100"
+                  type="submit"
+                  value="Read more"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 text-center">
+              <div class="card-body theme_black p-5">
+                <img
+                  data-aos-duration="1000"
+                  data-aos="zoom-out"
+                  src="./assets/images/driver-icon-27020.png"
+                  class="card-img-top rounded-pill theme_color p-3"
+                  style="width: 100px; height: 100px"
+                  alt="..."
+                />
+
+                <h5 class="card-title m-3 text-white">Safety Guarantee</h5>
+                <p
+                  data-aos-duration="1000"
+                  data-aos="zoom-out"
+                  class="card-text text_fade-white"
+                >
+                  This is content. This content is a little bit longer.This is
+                  content. This content is a little bit longer.
+                </p>
+                <input
+                  class="btn-form btn rounded-pill theme_color p-3 w-100"
+                  type="submit"
+                  value="Read more"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 text-center">
+              <div class="card-body theme_black p-5">
+                <img
+                  data-aos-duration="1000"
+                  data-aos="zoom-out"
+                  src="./assets/images/kisspng-request-for-quotation-sales-quote-service-computer-5af948c1a5b636.6792786215262865296788.png"
+                  class="card-img-top rounded-pill theme_color p-3"
+                  style="width: 100px; height: 100px"
+                  alt="..."
+                />
+
+                <h5 class="card-title m-3 text-white">Safety Guarantee</h5>
+                <p
+                  data-aos-duration="1000"
+                  data-aos="zoom-out"
+                  class="card-text text_fade-white"
+                >
+                  This is content. This content is a little bit longer.This is
+                  content. This content is a little bit longer.
+                </p>
+                <input
+                  class="btn-form btn rounded-pill theme_color p-3 w-100"
+                  type="submit"
+                  value="Read more "
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Why Choose us  Exit-->
+    <!-- Check taxi fares -->
+    <div class="container">
+      <div class="row p-0 m-0">
+        <div
+          class="col col col-12 col-xxl-12 col-xs-12 col-lg-12 col-md-12 col-sm-12 card p-0 border-0"
+        >
+          <div
+            class="card-body pt-5 my-5 text-center text_fade-black theme_white border-0"
+          >
+            <h5 class="text_fade-white">Our best cars</h5>
+            <h2
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1400"
+              class="card-title"
+              style="font-size: 60px; font-weight: bolder"
+            >
+              Why Choose us
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="row row-cols-xxl-2 row-cols-xl-2 row-cols-lg-1 row-cols-md-1 row-cols-sm-1 row-cols-1 g-5"
+      >
+        <div class="col col-6">
+          <div class="card h-100 p-5 theme_color">
+            <div class="card-body">
+              <div class="row g-0">
+                <div class="col-md-2 theme_color">
+                  <img
+                    src="./assets/images/driver-icon-27020.png"
+                    class="img-fluid rounded-start"
+                    style="width: 100px; height: 100px"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-10 theme_color">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Last updated 3 mins agoLast updated 3 mins ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <ul class="list-group my-5 mx-3">
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Base Rate:</span>
+                  <span>$4.30</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Per Mile/KM:</span>
+                  <span>$2.00</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Passengers:</span>
+                  <span>4</span>
+                </li>
+              </ul>
+              <button
+                data-aos-duration="800"
+                data-aos="zoom-in"
+                class="btn-bee p-3 rounded-pill w-100 theme_black text_white border-0"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col col-6">
+          <div class="card h-100 p-5 theme_color">
+            <div class="card-body">
+              <div class="row g-0">
+                <div class="col-md-2 theme_color">
+                  <img
+                    src="./assets/images/driver-icon-27020.png"
+                    class="img-fluid rounded-start"
+                    style="width: 100px; height: 100px"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-10 theme_color">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Last updated 3 mins agoLast updated 3 mins ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <ul class="list-group my-5 mx-3">
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Base Rate:</span>
+                  <span>$4.30</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Per Mile/KM:</span>
+                  <span>$2.00</span>
+                </li>
+                <li class="list-item fs-5 d-flex justify-content-between">
+                  <span>Passengers:</span>
+                  <span>4</span>
+                </li>
+              </ul>
+              <button
+                data-aos-duration="800"
+                data-aos="zoom-in"
+                class="btn-bee p-3 rounded-pill w-100 theme_black text_white border-0"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="m-5 p-5 fs-5 text_fade-white text-center">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, nam
+        dolores corporis praesentium odit neque ratione laborum iste accusamus
+        sunt sequi voluptas ducimus beatae impedit illum nostrum. Ratione,
+        consectetur ipsa! lorem
+      </p>
+    </div>
+
+    <!--  Check taxi fares -->
+    <!--  News and Updates -->
+    <div class="container">
+      <div
+        class="row justify-content-center align-itmes-strech row-cols-1 row-cols-xxl-2 row-cols-xl-2 row-cols-lg-2 row-cols-md-1 row-cols-sm-1 my-5 g-4"
+      >
+        <div class="col col-6 my-5">
+          <div class="card border-0">
+            <div class="cards_img">
+              <img
+                src="./assets/images/taxi-1347-x-900-picture-w6wrxgjtndz54ntm.jpg"
+                class="rounded"
+                style="width: 100%; height: 300px; object-fit: cover"
+                alt="..."
+              />
+              <!-- <div class="card_ rounded">
+
+            </div> -->
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-middle my-3">
+                <button
+                  data-aos-duration="800"
+                  data-aos="zoom-in"
+                  class="btn-bef p-3 rounded-pill w-100 theme_color text_white border-0"
+                >
+                  Book Now
+                </button>
+
+                <p class="card-text ms-3">BY Admin . 3Commentss</p>
+              </div>
+
+              <h5
+                data-aos-duration="1050"
+                data-aos="fade-up"
+                class="card-title"
+              >
+                <a href="blog-details.html " class="fs-2 text_black"
+                  >We ensure you that your journey is comfortable and safe</a
+                >
+              </h5>
+              <p
+                data-aos-duration="1000"
+                data-aos="fade-up"
+                class="card-text mt-4 fs-5 text_fade-white"
+              >
+                There are many variations of passages of lorem ipsum available
+                but the majority have suffered alteration...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-6 my-5">
+          <div class="card h-50 mb-3 border-0">
+            <div class="row h-100 align-itmes-strech g-0">
+              <div class="col-md-6 align-itmes-strech h-100">
+                <div class="card_l h-100">
+                  <div class="cards_img rounded h-100">
+                    <img
+                      src="./assets/images/taxi-1920-x-1080-picture-wobtoakrvd2w2hs9.jpg"
+                      class="w-100 h-100 card-img rounded-start"
+                      alt="..."
+                    />
+
+                    <div class="card_"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div
+                  class="card-body theme_fade-white h-100 rounded-end text-center"
+                >
+                  <button
+                    data-aos-duration="800"
+                    data-aos="zoom-in"
+                    class="btn-bef p-3 rounded-pill w-100 theme_color text_white border-0"
+                  >
+                    Book Now
+                  </button>
+                  <h5
+                    data-aos-duration="1050"
+                    data-aos="fade-up"
+                    class="card-title m-3 text_black"
+                  >
+                    <a href="blog-details.html " class="fs-4 text_black"
+                      >Car with private and discreet cabman for a service</a
+                    >
+                  </h5>
+                  <p
+                    data-aos-duration="1000"
+                    data-aos="fade-up"
+                    class="card-text"
+                  >
+                    <small class="text-body-secondary"
+                      >BY Admin . 3Commentss</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card h-50 mb-3 border-0">
+            <div class="row h-100 align-itmes-strech g-0">
+              <div class="col-md-6 align-itmes-strech h-100">
+                <div class="card_l h-100">
+                  <div class="cards_img rounded h-100">
+                    <img
+                      src="./assets/images/taxi-2048-x-1365-picture-crtvfa8bc0iemvej.jpg"
+                      class="w-100 h-100 card-img rounded-start"
+                      alt="..."
+                    />
+
+                    <!-- <div class="card_"></div> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div
+                  class="card-body theme_fade-white h-100 rounded-end text-center"
+                >
+                  <button
+                    data-aos-duration="800"
+                    data-aos="zoom-in"
+                    class="btn-bef p-3 rounded-pill w-100 theme_color text_white border-0"
+                  >
+                    Book Now
+                  </button>
+                  <h5
+                    data-aos-duration="1050"
+                    data-aos="fade-up"
+                    class="card-title m-3 text_black"
+                  >
+                    <a href="blog-details.html " class="fs-4 text_black"
+                      >Car with private and discreet cabman for a service</a
+                    >
+                  </h5>
+                  <p
+                    data-aos-duration="1000"
+                    data-aos="fade-up"
+                    class="card-text"
+                  >
+                    <small class="text-body-secondary"
+                      >BY Admin . 3Commentss</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- News and Updates Exit -->
+    <!-- Call Now -->
+    <div class="container-fluid m-0 p-0">
+      <div class="theme_color border-0 mt-5 p-5" style="height: 600px">
+        <div class="card-body pt-5 text-center theme_ border-0">
+          <h5 class="">Call 24 hour service available</h5>
+          <h2
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1050"
+            class="card-title"
+            style="font-size: 60px; font-weight: bolder"
+          >
+            Choose Your Taxi <br />
+            our taxi for your next ride
+          </h2>
+          <button
+            data-aos="fade-up"
+            data-aos-duration="800"
+            class="btn-bt text_white theme_black border-0 rounded-pill mt-5 p-3 w-25"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--  Call Now Exits -->
+    <!--  Footer  -->
+    <footer class="theme_black">
+      <div class="container">
+        <div
+          class="row theme_black row-cols-1 row-cols-xxl-4 row-cols-xl-4 row-cols-lg-2 row-cols-md-2 row-cols-sm-1"
+          style="padding: 100px; width: 100%"
+        >
+          <div class="col col-4 text-white">
+            <h1 class="fs-5">About</h1>
+            <p
+              class="text_fade-white py-3"
+              style="font-weight: bolder; line-height: 30px"
+            >
+              Lorem, ipsum dolor consectetur adipisicing elit. Officia laborum
+              ipsum tenetur optio excepturi quas eaque? Officia, est. Lorem
+              ipsum dolor,
+            </p>
+            <ul class="d-flex p-0">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="bi bi-twitter text_white"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="bi bi-youtube text_white"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                  ><i class="bi bi-facebook text_white"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link active icon-link icon-link-hover"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                  ><i class="bi bi-google text_white"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col col-2 text-white">
+            <h1 class="fs-5">Links</h1>
+            <ul class="p-0">
+              <li class="my-3">
+                <a
+                  class="active icon-link icon-link-hover text_fade-white"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  About
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  class="active icon-link icon-link-hover text_fade-white"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  Get a Taxi
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  class="active icon-link icon-link-hover text_fade-white"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  Our Reviews
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  class="active icon-link icon-link-hover text_fade-white"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  Latest News
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  class="active icon-link icon-link-hover text_fade-white"
+                  style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+                  aria-current="page"
+                  href="#"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-3 text-white">
+            <h1 class="fs-5">Contact</h1>
+            <p class="text_fade-white py-3">
+              86 Road Broklyn Street, 600 <br />
+              New York, USA
+            </p>
+            <a
+              class="icon-link icon-link-hover text_white"
+              style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+              href="#"
+            >
+              <i class="bi bi-envelope-fill align-middle text_yellow"></i>
+              needhelp@conexi.com
+            </a>
+            <a
+              class="navbar-item icon-link icon-link-hover text_white"
+              style="--bs-icon-link-transform: translate3d(0, -0.125rem, 0)"
+              href="#"
+            >
+              <i class="bi bi-telephone-fill align-middle text_yellow"></i>
+              888 888 0000
+            </a>
+          </div>
+          <div class="col col-3 text-white">
+            <h1 class="fs-5">Newsletter</h1>
+            <p class="text_fade-white my-4">
+              Sign up now for our mailing list to get all latest news and
+              updates from conexi company.
+            </p>
+
+            <div
+              class="theme_fade-black rounded-pill d-flex my-5"
+              style="width: 100%; height: 60px"
+            >
+              <form>
+                <input
+                  type="text"
+                  placeholder=" Enter your email"
+                  class="theme_fade-black border-0 rounded-pill p-2"
+                  style="outline: none"
+                />
+                <button
+                  class="theme_color rounded-pill"
+                  style="width: 45px; height: 45px; margin-top: 8px"
+                >
+                  Go
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr class="text_fade-white" />
+        <div class="d-flex justify-content-between align-middle">
+          <div class="my-4 d-flex">
+            <a href="#" class="text_fade-white">
+              <img src="./assets/images/logo-1-1.png" alt="" />
+              <a
+                class="nav-link disabled ms-5 me-1 text_fade-white"
+                aria-disabled="true"
+                ><i class="bi bi-c-circle-fill text_fade-white"></i>
+                <span class="text_fade-white">2020</span></a
+              >
+            </a>
+
+            <a href="#" class="text_yellow" style="font-weight: bolder">
+              Tanatheme.com</a
+            >
+          </div>
+          <div class="mt-4">
+            <a href="#" class="text_fade-white me-3">Terms of use </a>
+            <a href="#" class="text_fade-white">Privacy Policy </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Exit -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        // ... your other initialisation options here ...
+        once: true,
+      });
+    </script>
+  </body>
+</html>
